@@ -1,0 +1,46 @@
+{
+    "name": "synthax-gaslighting",
+    "displayName": "Synthax Gaslighting",
+    "description": "Gaslight yourself while coding to improve your mental strength.",
+    "version": "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/eNiiju/synthax-gaslighting"
+    },
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onStartupFinished"
+    ],
+    "main": "./out/extension.js",
+    "contributes": {
+        "commands": [
+            {
+                "command": "synthax-gaslighting.toggle",
+                "title": "Synthax Gaslighting: Toggle synthax gaslighting"
+            },
+            {
+                "command": "synthax-gaslighting.editChance",
+                "title": "Synthax Gaslighting: Edit synthax gaslighting chance"
+            }
+        ]
+    },
+    "scripts": {
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./",
+        "vscode:prepublish": "npm run compile",
+        "vscode:package": "vsce package"
+    },
+    "devDependencies": {
+        "@types/vscode": "^1.60.0",
+        "@types/node": "^16.11.7",
+        "@typescript-eslint/eslint-plugin": "^5.42.0",
+        "@typescript-eslint/parser": "^5.42.0",
+        "eslint": "^8.26.0",
+        "typescript": "^4.8.4"
+    }
+}
