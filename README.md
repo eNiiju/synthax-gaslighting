@@ -1,4 +1,4 @@
-# Synthax Gaslighting
+# Syntax Gaslighting
 
 VS Code extension that gaslights you while coding to improve your mental strength.
 
@@ -15,5 +15,5 @@ The extension is enabled by default when you open VS Code. It will randomly add 
 
 ## Commands
 
--   `synthax-gaslighting.toggle`: Toggles the extension on/off
--   `synthax-gaslighting.editChance`: Edits the chance of gaslighting
+-   `syntax-gaslighting.toggle`: Toggles the extension on/off
+-   `syntax-gaslighting.editChance`: Edits the chance of gaslighting

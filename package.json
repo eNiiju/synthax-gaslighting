@@ -1,12 +1,12 @@
 {
-    "name": "synthax-gaslighting",
+    "name": "syntax-gaslighting",
     "publisher": "niiju",
-    "displayName": "Synthax Gaslighting",
+    "displayName": "Syntax Gaslighting",
     "description": "Gaslight yourself while coding to improve your mental strength.",
     "version": "0.0.1",
     "repository": {
         "type": "git",
-        "url": "https://github.com/eNiiju/synthax-gaslighting"
+        "url": "https://github.com/eNiiju/syntax-gaslighting"
     },
     "engines": {
         "vscode": "^1.60.0"
@@ -21,12 +21,12 @@
     "contributes": {
         "commands": [
             {
-                "command": "synthax-gaslighting.toggle",
-                "title": "Synthax Gaslighting: Toggle synthax gaslighting"
+                "command": "syntax-gaslighting.toggle",
+                "title": "Syntax Gaslighting: Toggle syntax gaslighting"
             },
             {
-                "command": "synthax-gaslighting.editChance",
-                "title": "Synthax Gaslighting: Edit synthax gaslighting chance"
+                "command": "syntax-gaslighting.editChance",
+                "title": "Syntax Gaslighting: Edit syntax gaslighting chance"
             }
         ]
     },

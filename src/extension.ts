@@ -27,7 +27,7 @@ const GASLIGHTING_MESSAGES = [
 /*                               Configuration                               */
 /* ------------------------------------------------------------------------- */
 
-let isSynthaxGaslightingEnabled = true;
+let isSyntaxGaslightingEnabled = true;
 let gaslightingChancePercentage = DEFAULT_GASLIGHTING_CHANCE;
 
 /* ------------------------------------------------------------------------- */
@@ -58,7 +58,7 @@ export function activate(context: vscode.ExtensionContext) {
 
     vscode.window.onDidChangeActiveTextEditor(
         () => {
-            if (isSynthaxGaslightingEnabled) {
+            if (isSyntaxGaslightingEnabled) {
                 triggerUpdateGaslightingDecorations();
             }
         },
@@ -68,7 +68,7 @@ export function activate(context: vscode.ExtensionContext) {
 
     vscode.workspace.onDidChangeTextDocument(
         () => {
-            if (isSynthaxGaslightingEnabled) {
+            if (isSyntaxGaslightingEnabled) {
                 triggerUpdateGaslightingDecorations();
             }
         },
@@ -77,13 +77,13 @@ export function activate(context: vscode.ExtensionContext) {
     );
 
     // Register command to toggle the extension
-    const disposable = vscode.commands.registerCommand('synthax-gaslighting.toggle', () => {
-        isSynthaxGaslightingEnabled = !isSynthaxGaslightingEnabled;
-        if (isSynthaxGaslightingEnabled) {
-            vscode.window.showInformationMessage('Synthax Gaslighting enabled! Prepare to question everything...');
+    const disposable = vscode.commands.registerCommand('syntax-gaslighting.toggle', () => {
+        isSyntaxGaslightingEnabled = !isSyntaxGaslightingEnabled;
+        if (isSyntaxGaslightingEnabled) {
+            vscode.window.showInformationMessage('Syntax Gaslighting enabled! Prepare to question everything...');
             triggerUpdateGaslightingDecorations();
         } else {
-            vscode.window.showInformationMessage('Synthax Gaslighting disabled. You can code in peace now.');
+            vscode.window.showInformationMessage('Syntax Gaslighting disabled. You can code in peace now.');
             const activeEditor = vscode.window.activeTextEditor;
             if (activeEditor) {
                 activeEditor.setDecorations(decorationType, []);
@@ -92,7 +92,7 @@ export function activate(context: vscode.ExtensionContext) {
     });
 
     // Register command to change gaslighting chance
-    const changeChanceCommand = vscode.commands.registerCommand('synthax-gaslighting.editChance', async () => {
+    const changeChanceCommand = vscode.commands.registerCommand('syntax-gaslighting.editChance', async () => {
         const result = await vscode.window.showInputBox({
             prompt: 'Enter the percentage chance of gaslighting (1-100)',
             value: gaslightingChancePercentage.toString(),
@@ -156,7 +156,7 @@ function getGaslightingMessageForLineContent(line: string): string | null {
 }
 
 async function updateGaslightingDecorations() {
-    if (!isSynthaxGaslightingEnabled) {
+    if (!isSyntaxGaslightingEnabled) {
         return;
     }
 
