@@ -21,6 +21,15 @@ const GASLIGHTING_MESSAGES = [
     'Please. Tell me Copilot wrote this one... 🤖',
     'Totally not a memory leak... 🚽',
     "I'd be embarrassed to push this to git if I were you. 😳",
+    'This line is... unique 🦄',
+    'Are you sure this is the best approach? 🤔',
+    'This might come back to haunt you... 👻',
+    'Read that again, but slowly. 📖',
+    'Speak with your duck about this one 🦆',
+    'You might want to catch this kind of technical debt early... 💸',
+    'I hope you have a good reason for this... 🤨',
+    'And I thought SQL injections were a thing of the past... 🕰️',
+    'Here you go https://stackoverflow.com/questions/ask 🤓',
 ];
 
 /* ------------------------------------------------------------------------- */
