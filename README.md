@@ -20,6 +20,12 @@ VS Code extension that gaslights you while coding to improve your mental strengt
 - Toggleable and configurable with simple commands
 - Status bar integration showing current settings and streak count
 
+## Examples
+
+**Achievement Unlocked**
+
+![Achivement Example](images/achievement_example.png)
+
 ## Usage
 
 The extension is enabled by default when you open VS Code. It will randomly add comments to your code as you type. The chance of gaslighting increases late at night because that's when you make the ~~worst~~ best decisions.

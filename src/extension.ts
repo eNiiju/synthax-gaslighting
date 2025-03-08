@@ -150,8 +150,8 @@ const EXISTENTIAL_CRISIS_MESSAGES = [
     'In 100 years, no one will remember this code. Or you. 🪦',
     'How many hours of your finite life did you spend on this? ⏳',
     'This code = your legacy. Let that sink in. 🚪🚶‍♂️',
-    'You'll be writing code like this until retirement... if that ever happens 👴',
-    'Each character here is a moment you'll never get back ⌨️',
+    'You\'ll be writing code like this until retirement... if that ever happens 👴',
+    'Each character here is a moment you\'ll never get back ⌨️',
 ];
 
 // Code pattern detection (regex patterns to trigger specific messages)
@@ -227,8 +227,6 @@ export function activate(context: vscode.ExtensionContext) {
     severeDecorationType = vscode.window.createTextEditorDecorationType({
         textDecoration: 'none; border-bottom: 2px dotted rgb(255, 99, 71)',
         isWholeLine: false,
-        backgroundColor: { id: 'editorError.foreground' },
-        opacity: '0.05',
     });
 
     // Create status bar item
