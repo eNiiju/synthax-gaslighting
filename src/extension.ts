@@ -30,6 +30,19 @@ const GASLIGHTING_MESSAGES = [
     'I hope you have a good reason for this... 🤨',
     'And I thought SQL injections were a thing of the past... 🕰️',
     'Here you go https://stackoverflow.com/questions/ask 🤓',
+    "Is that the best you can do? Or are you saving your best for production? 🤔",
+    "I hope you enjoy debugging surprises. 🐞",
+    "This code might be revolutionary, if it ever runs. 🚀",
+    "I see you've embraced the 'it works on my machine' philosophy. 🤷",
+    "Ever considered that this might be overengineering? 😅",
+    "Did you try to explain this to your future self? 🤯",
+    "I admire your confidence in ignoring best practices. 😏",
+    "I bet your QA team is in for a treat. 🍿",
+    "If code quality was optional, you'd be a millionaire. 💸",
+    "This reminds me of a Rubik's cube—colorful but confusing. 🧩",
+    "Maybe we should add a disclaimer: 'May cause unexpected crashes.' 🚨",
+    "This is what happens when creativity meets technical debt. ⚡",
+    "At least this code gives us something to talk about in stand-ups. 🗣️"
 ];
 
 /* ------------------------------------------------------------------------- */
