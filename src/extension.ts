@@ -30,6 +30,8 @@ const GASLIGHTING_MESSAGES = [
     'I hope you have a good reason for this... 🤨',
     'And I thought SQL injections were a thing of the past... 🕰️',
     'Here you go https://stackoverflow.com/questions/ask 🤓',
+    'Better get the intern to review this one... 🧑‍💼',
+    'Maybe be a little harder on yourself next time? 🤔',
 ];
 
 // Language-specific gaslighting messages
@@ -147,7 +149,7 @@ const EXISTENTIAL_CRISIS_MESSAGES = [
     'Is this why you got a Computer Science degree? 🎓',
     'This function will outlive us all... unfortunately 💀',
     'Each line you write brings us closer to the AI apocalypse 🤖',
-    'In 100 years, no one will remember this code. Or you. 🪦',
+    'In 100 years, no one will remember this code. Or you. 🤡',
     'How many hours of your finite life did you spend on this? ⏳',
     'This code = your legacy. Let that sink in. 🚪🚶‍♂️',
     'You\'ll be writing code like this until retirement... if that ever happens 👴',
