@@ -26,7 +26,7 @@ VS Code extension that gaslights you while coding to improve your mental strengt
 
 **Achievement Unlocked**
 
-<p><img src="https://github.com/EatMoreChicken/syntax-gaslighting/tree/main/images/achievement_example.png" alt="Achievement Example" width="544px"></p>
+<p><img src="https://github.com/EatMoreChicken/syntax-gaslighting/tree/main/images/achievement_example.png" alt="Achievement Example" width="646px"></p>
 
 **Language-Specific Gaslighting (Python)**
 
