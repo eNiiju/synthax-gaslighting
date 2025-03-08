@@ -26,15 +26,15 @@ VS Code extension that gaslights you while coding to improve your mental strengt
 
 **Achievement Unlocked**
 
-<p><img src="https://github.com/EatMoreChicken/syntax-gaslighting/raw/main/images/achievement_example.png" alt="Achievement Example" width="646px"></p>
+<p><img src="https://github.com/EatMoreChicken/syntax-gaslighting/raw/main/images/achievement_example.png" alt="Achievement Example" width="464px"></p>
 
 **Language-Specific Gaslighting (Python)**
 
-<p><img src="https://github.com/EatMoreChicken/syntax-gaslighting/raw/main/images/python-gaslighting-example.png" alt="Python Gaslighting" width="544px"></p>
+<p><img src="https://github.com/EatMoreChicken/syntax-gaslighting/raw/main/images/python-gaslighting-example.png" alt="Python Gaslighting" width="350px"></p>
 
 **Suspiciously Positive Feedback**
 
-<p><img src="https://github.com/EatMoreChicken/syntax-gaslighting/raw/main/images/suspicious-feedback-example.png" alt="Suspicious Positive Feedback" width="544px"></p>
+<p><img src="https://github.com/EatMoreChicken/syntax-gaslighting/raw/main/images/suspicious-feedback-example.png" alt="Suspicious Positive Feedback" width="373px"></p>
 
 ## Usage
 
