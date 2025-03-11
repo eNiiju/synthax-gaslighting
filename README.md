@@ -3,7 +3,7 @@
 VS Code extension that gaslights you while coding to improve your mental strength.
 
 <div align="center">
-  <p><img src="https://github.com/EatMoreChicken/syntax-gaslighting/raw/main/images/example-visual.png" alt="Example Visual" width="544px"></p>
+  <p><img src="https://github.com/eNiiju/syntax-gaslighting/raw/main/images/example-visual.png" alt="Example Visual" width="544px"></p>
 </div>
 
 ## Features
@@ -29,19 +29,19 @@ VS Code extension that gaslights you while coding to improve your mental strengt
 **Achievement Unlocked**
 
 <div align="center">
-  <p><img src="https://github.com/EatMoreChicken/syntax-gaslighting/raw/main/images/achievement_example.png" alt="Achievement Example" width="464px"></p>
+  <p><img src="https://github.com/eNiiju/syntax-gaslighting/raw/main/images/achievement_example.png" alt="Achievement Example" width="464px"></p>
 </div>
 
 **Language-Specific Gaslighting (Python)**
 
 <div align="center">
-  <p><img src="https://github.com/EatMoreChicken/syntax-gaslighting/raw/main/images/python-gaslighting-example.png" alt="Python Gaslighting" width="350px"></p>
+  <p><img src="https://github.com/eNiiju/syntax-gaslighting/raw/main/images/python-gaslighting-example.png" alt="Python Gaslighting" width="350px"></p>
 </div>
 
 **Suspiciously Positive Feedback**
 
 <div align="center">
-  <p><img src="https://github.com/EatMoreChicken/syntax-gaslighting/raw/main/images/suspicious-feedback-example.png" alt="Suspicious Positive Feedback" width="373px"></p>
+  <p><img src="https://github.com/eNiiju/syntax-gaslighting/raw/main/images/suspicious-feedback-example.png" alt="Suspicious Positive Feedback" width="373px"></p>
 </div>
 
 ## Usage
