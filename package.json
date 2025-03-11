@@ -28,6 +28,14 @@
             {
                 "command": "syntax-gaslighting.editChance",
                 "title": "Syntax Gaslighting: Edit syntax gaslighting chance"
+            },
+            {
+                "command": "syntax-gaslighting.resetStreak",
+                "title": "Syntax Gaslighting: Reset Streak"
+            },
+            {
+                "command": "syntax-gaslighting.randomMessage",
+                "title": "Syntax Gaslighting: Random Message"
             }
         ]
     },
