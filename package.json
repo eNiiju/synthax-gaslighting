@@ -3,7 +3,7 @@
     "publisher": "niiju",
     "displayName": "Syntax Gaslighting",
     "description": "Gaslight yourself while coding to improve your mental strength.",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "icon": "assets/icon.png",
     "repository": {
         "type": "git",
